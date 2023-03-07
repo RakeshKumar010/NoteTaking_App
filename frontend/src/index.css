@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainnav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 70vw;
+    background-color: rgb(15, 45, 45);
+    color: wheat;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+
+    list-style-type: none;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: wheat;
+}
+
+
+.mainloginForm,
+.mainsignupForm,
+.mainAddnotes,
+.adoutmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 45, 45);
+    height: 100vh;
+}
+
+.loginForm,
+.signupForm,
+.addNotes,
+.innerDiv {
+    background-color: rgba(231, 255, 53, 0);
+    padding: 3rem;
+    border: 1x solid white;
+    box-shadow: 1px 1px 8px black;
+
+    width: 40vw;
+    height: 50vh;
+}
+
+.signupForm {
+    height: 60vh;
+}
+
+.loginForm input,
+.btn {
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: rgba(128, 128, 128, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.signupForm input,
+.btn {
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: rgba(128, 128, 128, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.addNotes input,
+textarea {
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: rgba(128, 128, 128, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.btn {
+    background-color: rgb(3, 91, 91);
+    box-shadow: 1px 1px 13px black inset;
+}
+
+.addNotes {
+    overflow: hidden auto;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(3, 91, 91);
+    box-shadow: 1px 1px 8px black inset;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+.mainNotes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    background-color: rgb(15, 45, 45);
+    min-height: 100vh;
+    padding: 5rem;
+    color: wheat;
+}
+
+.notesicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+
+    width: 10vw;
+    height: fit-content;
+    z-index: 1;
+    background-color: rgb(3, 91, 91);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    box-shadow: 1px 1px 8px black;
+
+}
+.icon:hover{
+    cursor: grab;
+}
+.icon1,.icon2:hover{
+    cursor:grabbing;
+}
+
+.innerNotes {
+    width: 30vw;
+    height: 30vh;
+    background-color: rgba(231, 255, 53, 0);
+    padding: 1rem;
+
+    border: 1x solid white;
+    box-shadow: 1px 1px 8px black;
+
+    overflow: hidden auto;
+
+
+}
+.icon2link{
+    color:wheat
+
+}

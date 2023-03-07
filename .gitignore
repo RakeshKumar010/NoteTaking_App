@@ -1,0 +1,8 @@
+#backend
+backend/node_modules
+
+#front_end
+frontend/.parcel-cache
+frontend/dist
+frontend/node_modules
+
